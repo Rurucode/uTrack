@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      {isAuthenticated ? <><Profile/><Logout/></> : <Login/>}
+      {isAuthenticated ? <><Profile/><Logout/> </> : <Login/>}
     </div>
   );
 }
