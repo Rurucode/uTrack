@@ -2,6 +2,7 @@ import './App.css';
 import Login from './components/Main/Login'
 import Logout from './components/Main/Logout/Logout';
 import Profile from './components/Main/Profile/Profile';
+import Nav from './components/Head/Nav';
 import {useAuth0} from '@auth0/auth0-react';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       {isAuthenticated ? <><Profile/><Logout/> </> : <Login/>}
+      <Nav/>
     </div>
   );
 }
