@@ -1,0 +1,17 @@
+CREATE TABLE archivos (
+id_archivo serial NOT NULL PRIMARY KEY,
+nombre varchar(150) NOT NULL,
+url varchar(200) NOT NULL UNIQUE,
+titularidad varchar(150) NOT NULL,
+ubicacion varchar(150),
+etiquetas varchar(150),
+dateUpload date,
+estado varchar(150),
+licencia varchar(150),
+cliente varchar(150),
+fechadesde date,
+fechahasta date,
+duracion varchar(150),
+faltan INT
+);
+
