@@ -1,16 +1,12 @@
-.loginIntro-div{
-    width: 100%;
-    height: 100%;
-    left: 40px;
-    top: 56px;
+.container{
+    position: fixed;
 }
 
 .loginIntro-divLogo{
     display: flex;
-    flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -69,8 +65,45 @@
     border: none;
 }
 
+.loginIntro-finalButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 24px;
+    position: absolute;
+    width: 197px;
+    height: 39px;
+    left: 96px;
+    top: 704px;
+    background: #7B61FF;
+    box-shadow: 0px 10px 16px rgba(123, 97, 255, 0.28);
+    border-radius: 0px 12px;
+    border: none;
+}
+
 .loginIntro-backIconWhite{
     width: 36px;
     height: 36px;
     left: 292px;
+}
+
+.loginIntro-signIn{
+    position: absolute;
+    width: 211px;
+    height: 14px;
+    left: 89px;
+    top: 768px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.loginIntro-signIn a{
+    color: #7B61FF;
 }
