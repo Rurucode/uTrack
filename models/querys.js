@@ -1,17 +1,17 @@
 const pool = require('../utils/conexionPostgre');
+const pQuerys = require('../utils/querysPostgre');
 
-
-
-const allUsuarios = async () => {
+// Query para obtener todos los datos de la BBDD.
+const allData = async () => {
 
     let client, result;
     try {
-        client = await pool.connect(); // Espera a abrir conexion
-        const data = await client.query(`SELECT * FROM archivos`)
+        client = await pool.connect();
+        const data = await client.query(pQuerys.allData);
         result = data.rows
-        console.log(result);
+        // console.log(result)
     } catch (err) {
-        console.log(err);
+        // console.log(err);
         throw err;
     } finally {
         client.release();
@@ -19,5 +19,11 @@ const allUsuarios = async () => {
     return result
 }
 
-allUsuarios()
-.then(data=>console.log(data))
+const querys = {
+    allData
+}
+
+// allData()
+// .then(data=>console.log(data))
+
+module.exports = querys;
