@@ -1,0 +1,369 @@
+/* PRIMER DIV */
+.first-div{
+    width: 83px;
+    height: 14px;
+    margin: 92px 267px 8px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .first-div-p{
+        font-family: Clash Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #7B61FF;
+        margin: 0px;
+    }
+
+    .first-div-img{
+        width: 14px;
+        height: 14px;
+    }
+
+/* SEGUNDO DIV */
+.second-div{
+    width: 312px;
+    height: 36px;
+    margin: 8px 0px 33px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* 2.1. SEGUNDO DIV */
+    .second-div-user{
+        width: 142px;
+        height: 36px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+        .second-div-user-h4{
+            font-family: Clash Display;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 115%;
+            color: #121212;
+            margin: 0px;
+        }
+
+        .second-div-user-p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 115%;
+            letter-spacing: -0.02em;
+            color: #818181;
+            margin: 0px;
+        }
+
+    /* 2.2. SEGUNDO DIV */
+    .second-div-proyects{
+        width: 60px;
+        height: 36px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+        .second-div-img{
+            height: 17px;
+        }
+
+        .second-div-h6{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #121212;
+            margin: 0px;
+            margin-left: 4px;
+        }
+
+        .second-div-p{
+            width: 60px;
+            height: 18px;
+            left: 213px;
+            top: 130px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #818181;
+            margin: 0px;
+        }
+
+    /* 2.3. SEGUNDO DIV */
+    .second-div-folders{
+        width: 54px;
+        height: 36px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+/* TERCER DIV */
+.third-div{
+    width: 312px;
+    height: 44px;
+    margin: 0px 0px 29px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* 3.1. TERCER DIV */
+    .inbox-div{
+        width: 78px;
+        height: 44px;
+        background: #F4F4F4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+        /* TERCER DIV ICONOS */
+        .third-div-icon{
+            margin-right: 4px;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* TERCER DIV PÁRRAFOS */
+        .third-div-p{
+            margin: 0;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 100%;
+            align-items: center;
+            color: #121212;
+        }
+
+    /* 3.2. TERCER DIV */
+    .recents-div{
+        width: 108px;
+        height: 44px;
+        background: #F4F4F4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* 3.3. TERCER DIV */
+    .delete-div{
+        width: 109px;
+        height: 44px;
+        background: #F4F4F4;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* H3 */
+.h3-estadisticas{
+    position: absolute;
+    left: 40px;
+    top: 254px;
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #121212;
+}
+
+ /* CUARTO DIV */
+ .fourth-div{
+    width: 389px;
+    height: auto;
+    margin-top: 30px;
+ }
+
+    .graficoEstadisticas{
+        width: 389px;
+        height: auto;
+    }
+
+/* QUINTO DIV */
+.fifth-div{
+    width: 312px;
+    height: 34px;
+    margin: 23px 0px 32px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* QUINTO DIV BUSCADOR */
+    .fifth-div-search{
+        width: 184px;
+        height: 34px;
+        background: #F4F4F4;
+        border-radius: 38px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px 13px;
+    }
+
+        /* QUINTO DIV ICONOS */
+        .fifth-div-icon{
+            width: 24px;
+            height: 24px;
+            margin: 0;
+        }
+    
+    /* QUINTO DIV SETTINGS */
+    .fifth-div-settings{
+        width: 34px;
+        height: 34px;
+        background: #F4F4F4;
+        border-radius: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    /* QUINTO DIV FILTER */
+    .fifth-div-filters{
+        width: 34px;
+        height: 34px;
+        background: #F4F4F4;
+        border-radius: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+
+
+/* SEXTO DIV */
+.sixth-div-contain{
+    width: 308px;
+    height: 44px;
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sixth-div-left{
+    width: 128px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixth-div-right{
+    width: 54px;
+    height: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sixth-div-h3{
+    width: 94px;
+    height: 20px;
+    left: 40px;
+    top: 600px;
+    margin: 0;
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #121212;
+}
+
+.arrowIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.sixth-div-left-p{
+    margin: 0;
+    width: 100px;
+    height: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #818181;
+}
+
+.sixth-div-right-p{
+    position: absolute;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #7B61FF;
+    margin: 0;
+}
+
+.sixth-div-hr{
+    width: 309px;
+    height: 0px;
+    border: 0.8px solid #000000;
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
