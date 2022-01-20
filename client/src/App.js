@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Main from "./components/Main"
 import {BrowserRouter} from 'react-router-dom';
+import LoginIntro from './components/Main/LoginIntro/LoginIntro';
 // import LoginIntro from "./components/Main/LoginIntro";
 
 
@@ -34,7 +35,8 @@ function App() {
   return (
     <div className="App">
     <BrowserRouter>
-      {isAuthenticated ? <><Profile/><Logout/> </> : <Main/>}      
+      
+      {isAuthenticated ? <Main/> : <LoginIntro/>}      
     </BrowserRouter>
     </div>
   );
