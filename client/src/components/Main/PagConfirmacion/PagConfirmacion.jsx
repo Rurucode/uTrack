@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import abstract from "../../../assets/abstract_1.png";
 import './PagConfirmacion.css';
 
@@ -14,7 +15,9 @@ const PagConfirmacion = () => {
     <div className="text2">
       <p>Lorem ipsum dolor sit amet, consectetur adi elit. Viverra nibh dui pulvinar pretium facilisi. Sit nibh.</p>
     </div>
+    <Link to="/">
     <button className="button">VOLVER</button>
+    </Link>
   </div>;
 };
 

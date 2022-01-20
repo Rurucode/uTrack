@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 // Importamos los iconos
@@ -18,27 +19,27 @@ const Nav = () => {
       <ul className="footernavbar-ul">
         <li className="footernavbar-li" id="blogIconMargin"/>
           <div className="footernavbar-divContainer">
-            <a href="">
-              <img src={blogIcon} className="footernavbar-icons"/>
-            </a>
+            <Link to="/">
+              <img src={homeIcon} className="footernavbar-icons"/>
+            </Link>
           </div>
         <li className="footernavbar-li"/>
           <div className="footernavbar-divContainer">
-            <a href="">
-              <img src={homeIcon} className="footernavbar-icons"/>
-            </a>
+            <Link to="/">
+              <img src={blogIcon} className="footernavbar-icons"/>
+            </Link>
         </div>
         <li className="footernavbar-li"/>
           <div className="footernavbar-divContainer" id="blackSquare">
-            <a href="">
+            <Link to="/upload">
               <img src={uploadIcon} className="footernavbar-icons"/>
-          </a>
+            </Link>
         </div>
         <li className="footernavbar-li"/>
           <div className="footernavbar-divContainer">
-            <a href="">
+            <Link to="/files">
               <img src={filesIcon} className="footernavbar-icons"/>
-          </a>
+          </Link>
         </div>
         <li className="footernavbar-li"/>
         <div className="footernavbar-divContainer">

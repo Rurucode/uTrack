@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://api.fontshare.com/css?f=clash-display@400&display=swap');
+
+.submitData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px red solid; */
+    width: 390px;
+    margin-top: 90px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    height: 659px;
+    background: #FCFCFC;
+}
+.topSubmit{
+    width: 362px;
+    height: 96px;
+}
+.submitForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    width: 310px;
+    height: 111px;
+
+    font-family: 'Clash Display', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    margin-top: 20px;
+    
+    /* White */
+    
+    color: #7B61FF;
+    background: #FCFCFC;
+    
+    border: 0 dashed #7B61FF;
+    /* box-sizing: border-box;
+    border-radius: 4px; */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%237B61FFFF' stroke-width='1' stroke-dasharray='4%2c 5' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameAndType{
+  /* Tipo */
+
+    padding-bottom: 10px;
+    margin: 30px 0 30px 0;
+    width: 310px;
+    height: 18px;
+
+    /* border: 1px brown solid; */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    /* display: flex; */
+    /* align-items: center; */
+
+    color: #818181;  
+}
+.nameAndType input{
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 152px;
+    color: #121212;
+    border-bottom: 0.7px #818181 solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+.name{
+    /* border: 1px solid green; */
+    justify-self: left;
+}
+.type{
+    /* border: 1px solid blue; */
+    justify-self: left;
+}
+#ownerTitle{
+    width: 151px;
+    height: 18px;
+    margin-right: 160px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+.proyectOwner{
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.proyectOwner img{
+    /* Rectangle 37 */
+
+    width: 147px;
+    height: 62px;
+
+
+    /* Grey */
+
+    background: #F4F4F4;
+    /* Black 60 */
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    border: 0.4px solid #818181;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.folderDirectory{
+    display: flex;
+    width: 317px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #121212;
+
+}
+.folderDirectory img{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+.folderDirectory button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 24px;
+    
+    color: #7B61FF;
+    width: 93px;
+    height: 38px;
+
+    font-family: 'Clash Display', sans-serif;
+    font-size: 14px;
+
+    
+    /* PRUEBA */
+    
+    border: 1px solid #7B61FF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 10px 16px rgba(123, 97, 255, 0.04));
+    border-radius: 33px;
+    margin-left: 18px;
+}
+.textStyle{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    align-self: left;
+    width: 310px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+
+    color: #818181;
+
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #818181;
+}
+.underline{
+    display: flex;
+    width: 202px;
+    justify-content: left;
+    align-items: center;
+    border-bottom: solid 0.7px #818181;
+    height: 35px;
+    margin-bottom: 30px;
+}
+.tagInput{
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 310px;
+    padding-bottom: 5px;
+    color: #CCC;
+    border-bottom: 0.7px #818181 solid;    
+}
+.submitButton{
+/* Button */
+position: absolute;
+width: 147px;
+height: 39px;
+left: 203px;
+top: 760px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 24px;
+
+width: 147px;
+height: 39px;
+
+
+/* PRUEBA */
+color: #CCC;
+background: #7B61FF;
+/* SOMBRA BOTÓN */
+
+box-shadow: 0px 10px 16px rgba(123, 97, 255, 0.28) !important;
+border-radius: 0px 12px;
+border-color: #CCC;
+border-width: 0;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid #f00;
+  }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 // Importamos los iconos
 import backIcon from "./assets/images/backIcon.png";
@@ -13,9 +14,9 @@ const TopNav = () => {
   return <div className="topnav-div">
     <nav className="topnav-nav">
       <div className="topnav-leftdiv">
-        <a href="">
+        <Link to="/">
             <img src={backIcon} className="topnav-icons"/>
-          </a>
+          </Link>
       </div>
       <div className="topnav-rightdiv">
         <a href="">
