@@ -1,0 +1,33 @@
+.ArchivoLista {
+    display: flex;
+}
+
+.iconfoto {
+    width: 24px;
+    height: 24px;
+    background: #F4F4F4;
+    border-radius: 4px;
+
+}
+
+.archivop {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.archivop p:first-child {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+line-height: 100%;
+}
+
+.puntos {
+    width: 3px;
+    height: 15px;
+}
+
+
+width: 24px;

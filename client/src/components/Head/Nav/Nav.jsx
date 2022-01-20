@@ -1,5 +1,6 @@
 import React from "react";
 
+
 // Importamos los iconos
 import blogIcon from "./assets/images/blogIcon.png";
 import homeIcon from "./assets/images/homeIcon.png";
@@ -48,7 +49,7 @@ const Nav = () => {
       </ul>
     </nav>
   </div>;
-  
+
 };
 
 export default Nav;

@@ -1,0 +1,29 @@
+INSERT INTO archivos (
+    nombre ,
+    url ,
+    titularidad ,
+    ubicacion ,
+    etiquetas ,
+    dateUpload ,
+    estado ,
+    licencia ,
+    cliente ,
+    fechadesde ,
+    fechahasta ,
+    duracion ,
+    faltan
+) VALUES (
+    ("Dibujo casa",
+    "www.google.com/casa",
+    "Unica",
+    "Mis dibujos"
+    "#mercado",
+    "20220102",
+    "Cedida",
+    "Creative Commons",
+    "Mercadona.sl",
+    "20210525",
+    "20220525",
+    "365"
+    ),()
+);
