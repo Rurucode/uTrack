@@ -3,12 +3,13 @@ import foto from "../../../../assets/iconfoto.png";
 import puntos from "../../../../assets/puntos.png";
 import './archivoLista.css'
 
-const ArchivoLista = () => {
+const ArchivoLista = (props) => {
   return <div className="ArchivoLista">
-    <img className="iconfoto" src={foto} alt="" />
+    <img className="iconfoto" src={props.url} alt="" />
+
     <div className="archivop">
-      <p>Nombre del archivo</p>
-      <p>22-11-2025</p>
+      <p className="nameA">{props.name}</p>
+      <p className="dataA">{props.date}</p>
     </div>
     <img className="puntos" src={puntos} alt="" />
   </div>;

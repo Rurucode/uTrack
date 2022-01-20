@@ -15,14 +15,14 @@ import LoginIntro from './components/Main/LoginIntro/LoginIntro';
 
 function App() {
   const {isAuthenticated} = useAuth0();
-  const [elements, setElements] = useState([]);
+  const [elements, setElements] = useState();
 
 
   useEffect( () => {
     const allData = async () => {
       try {
         const response = await axios.get('http://localhost:5000/api/alldata');
-        const data = await response;
+        const data = await response.data;
         console.log(data);
         setElements(data);
       } catch (error) {
@@ -31,12 +31,12 @@ function App() {
     }
     allData();
   }, []);
-
+  
   return (
     <div className="App">
     <BrowserRouter>
       
-      {isAuthenticated ? <Main/> : <LoginIntro/>}      
+      {isAuthenticated ? <Main elements={elements}/> : <LoginIntro/>}      
     </BrowserRouter>
     </div>
   );

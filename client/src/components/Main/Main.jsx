@@ -6,15 +6,14 @@ import MisArchivos from './MisArchivos/MisArchivos'
 
 import {Route, Routes} from 'react-router-dom';
 
-const Main = () => {
-  
+const Main = (props) => {
   return( 
   <main className="main">
     <Routes>
       <Route path="/" element={<Home/>} exact />
       <Route path="/upload" element={<SubmitData/>} />
       <Route path="/uploadDone" element={<PagConfirmacion/>}/>
-      <Route path="/files" element={<MisArchivos/>}/>
+      <Route path="/files" element={<MisArchivos elements={props.elements}/>}/>
     </Routes>
   </main>)
 };
