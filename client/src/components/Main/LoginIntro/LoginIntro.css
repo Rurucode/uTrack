@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.container{
+    position: fixed;
+}
+
+.loginIntro-divLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.loginIntro-logo{
+    width: 140px;
+    height: 36px;
+}
+
+.loginIntro-divIllustration{
+    margin-top: 34px;
+}
+
+.loginIntro-illustration{
+    width: 281px;
+    height: 213px;
+}
+
+.loginIntro-divTexts{
+    margin: 60px 60px 0 60px;
+    text-align: left;
+}
+
+.loginIntro-h3{
+    margin:0px;
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    color: #121212;
+}
+
+.loginIntro-p{
+    margin-top: 32px;
+    color: white;
+}
+
+.loginIntro-divList{
+    margin-left: 54px;
+    display: flex;
+}
+
+.loginIntro-divInput{
+    width: 12px;
+    margin: 4px;
+}
+
+.loginIntro-button{
+    position: absolute;
+    width: 81px;
+    height: 40px;
+    left: 269px;
+    top: 706px;
+    background: #7B61FF;
+    border-radius: 0px 12px;
+    border: none;
+}
+
+.loginIntro-finalButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 24px;
+    position: absolute;
+    width: 197px;
+    height: 39px;
+    left: 96px;
+    top: 704px;
+    background: #7B61FF;
+    box-shadow: 0px 10px 16px rgba(123, 97, 255, 0.28);
+    border-radius: 0px 12px;
+    border: none;
+}
+
+.loginIntro-backIconWhite{
+    width: 36px;
+    height: 36px;
+    left: 292px;
+}
+
+.loginIntro-signIn{
+    position: absolute;
+    width: 211px;
+    height: 14px;
+    left: 89px;
+    top: 768px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.loginIntro-signIn a{
+    color: #7B61FF;
+}

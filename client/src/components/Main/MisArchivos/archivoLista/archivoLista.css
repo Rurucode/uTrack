@@ -1,0 +1,54 @@
+.ArchivoLista {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.ArchivoLista img {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.archivop {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 600px;
+    
+}
+.iconfoto {
+    width: 35px;
+    height: 35px;
+    background: #F4F4F4;
+    border-radius: 4px;
+
+}
+
+
+.archivop p:first-child {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+line-height: 100%;
+}
+
+.puntos {
+    width: 3px;
+    height: 15px;
+}
+
+.dataA {
+    text-align: left;
+}
+
+.nameA {
+    text-align: left;
+}
+.topNav {
+     margin-top: -20px;
+ }
+
