@@ -29,10 +29,21 @@ function App() {
     allData();
   }, []);
 
+import Nav from './components/Head/Nav';
+import TopNav from './components/Head/TopNav';
+// import LoginIntro from "./components/Main/LoginIntro";
+import Home from "./components/Main/Home";
+import {useAuth0} from '@auth0/auth0-react';
+  const {isAuthenticated} = useAuth0();
+
+
   return (
     <div className="App">
       {isAuthenticated ? <><Profile/><Logout/> </> : <Login/>}
-      <MisArchivos/>
+      <TopNav/>
+      {/* <LoginIntro/> */}
+      <Home/>
+      <Nav/>
     </div>
   );
 }
