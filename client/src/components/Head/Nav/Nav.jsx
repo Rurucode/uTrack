@@ -7,7 +7,9 @@ import blogIcon from "./assets/images/blogIcon.png";
 import homeIcon from "./assets/images/homeIcon.png";
 import uploadIcon from "./assets/images/uploadIcon.png";
 import filesIcon from "./assets/images/filesIcon.png";
-import alertIcon from "./assets/images/alertIcon.png";
+import shieldIcon from  "./assets/images/shield.png";
+
+
 
 // Importamos el archico CSS y normalize
 import './Nav.css'
@@ -44,7 +46,7 @@ const Nav = () => {
         <li className="footernavbar-li"/>
         <div className="footernavbar-divContainer">
           <a href="">
-            <img src={alertIcon} className="footernavbar-icons"/>
+            <img src={shieldIcon} className="footernavbar-icons"/>
           </a>
         </div>
       </ul>

@@ -14,6 +14,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 // Importamos el archico CSS y normalize
 import './LoginIntro.css'
 import 'normalize.css'
+import Logout from "../Logout/Logout";
 
 const LoginIntro = () => {
   const { loginWithRedirect } = useAuth0();
@@ -34,6 +35,7 @@ const LoginIntro = () => {
   const nextSlide4 = () => {<Profile/>}
 
   return <div className="container">
+    {/* <Logout/> */}
       
       {/* Le damos un valor a cada slide, para que cuando este cambie, nos muestre el siguiente slide */}
       { value === 1 &&
@@ -71,7 +73,7 @@ const LoginIntro = () => {
             <img  src={loginIllustration} className="loginIntro-illustration" alt="utrackIllustration"/>
           </div>
           <div className="loginIntro-divTexts">
-            <h3 className="loginIntro-h3">Controla y trakea si tus proyectos se usan sin tu permiso.</h3>
+            <h3 className="loginIntro-h3">Controla y trackea si tus proyectos se usan sin tu permiso.</h3>
             <p className="loginIntro-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, vero culpa quaerat quas nulla ad enim soluta similique eius quisquam eveniet dolorem expedita quod, et aperiam ut quae repudiandae itaque.</p>
           </div>
           <div className="loginIntro-divList">
